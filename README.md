@@ -27,8 +27,6 @@ Darkweb_Crawler is an advanced Python-based OSINT (Open-Source Intelligence) too
 
 - Contributing
 
-- License
-
 ---
 
 # Key Features
@@ -124,7 +122,6 @@ Darkweb_Crawler is an advanced Python-based OSINT (Open-Source Intelligence) too
 
 - onion_start_urls = [
     "http://exampleonionaddress1234567890abcdefghijklmnopqrstuvwxyz234567.onion",
-    # Add your target URLs here
 
 ---
 
