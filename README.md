@@ -82,14 +82,16 @@ Darkweb_Crawler is an advanced Python-based OSINT (Open-Source Intelligence) too
 
 - Tor service installed and running
 
-- Git
-
 ---
 
 # Step-by-Step Setup
 
-**1. Manual INstallation**:
+- Create or activate your virtual environment
+  
+**1. Manual Installation**:
 
+- Follow the link below, copy and install the tool script manually using nano:
+ **https://gist.github.com/techenthusiast167/b3882b59ad0ee36c95aaa2291a1b841e**
 
 **2. Install Python dependencies**:
 
@@ -112,14 +114,6 @@ Darkweb_Crawler is an advanced Python-based OSINT (Open-Source Intelligence) too
 
 ---
 
-# Usage
-
-**Basic Execution**
-
-    python3 darkcrawler.py
-
----
-
 # Custom Configuration
 
 **Edit the script to add target .onion URLs**:
@@ -128,6 +122,12 @@ Darkweb_Crawler is an advanced Python-based OSINT (Open-Source Intelligence) too
     "http://exampleonionaddress1234567890abcdefghijklmnopqrstuvwxyz234567.onion",
 
 ---
+
+# Usage
+
+**Basic Execution**
+
+    python3 darkcrawler.py
 
 # Usage Examples
 
@@ -514,8 +514,7 @@ HashedControlPassword 16:872860B76453A77D60CA2BB8C1A7042072093276A3D701AD684053E
 - Installation
 - Usage
 - GUI
-- Output Format
-- Example
+- Important note 
 
 - - - 
 
