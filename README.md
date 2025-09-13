@@ -555,7 +555,7 @@ HashedControlPassword 16:872860B76453A77D60CA2BB8C1A7042072093276A3D701AD684053E
 
 - Follow the link below, copy and install the tool script manually using nano:
 
-**https://gist.github.com/techenthusiast167/63ed3e74ad5cec0ad0a62d932d8a3b70*£
+**https://gist.github.com/techenthusiast167/63ed3e74ad5cec0ad0a62d932d8a3b70**
 
 
 **Start Tor service**:
