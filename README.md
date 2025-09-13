@@ -1,4 +1,4 @@
-# DARKWEB_CRAWLER - Advanced Dark Web Intelligence Tool
+# DARKWEB_CRAWLER 2.0 - Advanced Dark Web Intelligence Tool
 
 Darkweb_Crawler is an advanced Python-based OSINT (Open-Source Intelligence) tool designed for ethical security research and threat intelligence gathering on the dark web. This tool enables security professionals to safely crawl .onion sites through the Tor network while analyzing content for potential threats and marketplace activities.
 
@@ -57,6 +57,10 @@ Darkweb_Crawler is an advanced Python-based OSINT (Open-Source Intelligence) too
 
 
 - **Threat Intelligence**: Identifies emerging threats, malware, and attack services being advertised on dark web markets
+
+- **Cyber Crime Investigation**: Gathering evidence from hidden services
+
+- **Illicit Marketplace Monitoring**: Tracking illegal goods and services
 
 - **Brand Protection**: Discovers stolen data, credentials, or intellectual property related to your organization
 
@@ -501,3 +505,111 @@ HashedControlPassword 16:872860B76453A77D60CA2BB8C1A7042072093276A3D701AD684053E
 - - - 
 - - - 
 
+# DarkCrawler V2:1
+
+
+# Table of Contents
+
+- Features
+- Installation
+- Usage
+- GUI
+- Output Format
+- Example
+
+- - - 
+
+# Features
+
+- **Anonymized Crawling**: Routes all traffic through Tor network
+  
+- **Threat Detection**: Identifies dangerous content with severity levels
+  
+- **Marketplace Analysis**: Categorizes illicit goods and services
+  
+- **Multi-format Reporting**: JSON, CSV, and professional PDF reports
+  
+- **GUI Dashboard**: Interactive threat intelligence interface
+
+- **Content Analysis**: Advanced text processing with NLTK
+
+- **Stealth Operation**: Randomized delays and circuit renewal
+
+- - - 
+
+# Installation
+
+**Prerequisites**
+
+- Python 3.8+
+
+- Tor service installed and running
+
+
+- Create or activate your virtual environment
+
+**Install Python Packages**:
+
+    pip3 install requests beautifulsoup4 stem nltk fpdf feedparser lxml
+
+**Manual Installation**:
+
+- Follow the link below, copy and install the tool script manually using nano: 
+
+
+**Start Tor service**:
+
+    Refer to version 2:0 above for support on how to configure Tor
+
+
+**Configure Target URLs**:
+
+Edit the **onion_start_urls** list in the main function with actual .onion addresses - Or refer to the V2:0 above for clarification. 
+
+
+# Usage
+
+**Basic Command Line**:
+
+
+    python3 darkcrawler.py
+
+
+# GUI Usage
+
+**The interactive GUI provides**:
+
+- **Dashboard Overview**: Summary of findings and threat levels
+
+- **Results Browser**: Navigate through crawled pages with threat assessment
+
+- **Detailed Analysis**: View content excerpts and threat classifications
+
+- **New Scan Interface**: Configure and launch new crawls
+
+- **Threat Intelligence Feed**: Latest cybersecurity news integration
+
+
+# GUI Features:
+
+- Color-coded threat severity (High/Medium/Low)
+
+- Marketplace goods categorization
+One-click export functionality
+
+- Interactive results filtering
+Real-time scan progress monitoring
+
+
+
+# Important Note:
+
+- Maintain Tor anonymity best practices
+
+- Ensure Tor is properly installed and running
+
+- Verify all dependencies are installed correctly
+
+
+
+For additional support, do well to reach out via my email address: preciousvincentct@gmail.com
