@@ -102,6 +102,18 @@ Built with privacy and security in mind, **Dark_Crawler** routes all traffic thr
 
 # Step 1: Manual Installation
 
+- Visit the link below to get the script, then use nano to install it:
+
+****
+
+### Step-by-Step:
+
+- Click on the link below to access the script
+
+- Copy the script content
+
+- Use nano to create and install the tool
+
 
 # Step 2: Install Dependencies
 
