@@ -117,8 +117,7 @@ Built with privacy and security in mind, **Dark_Crawler** routes all traffic thr
 
 # Step 2: Install Dependencies
 
-    pip install requests beautifulsoup4 stem fpdf2 nltk lxml
-
+    pip install requests beautifulsoup4 stem nltk lxml Pillow
 
 # Step 3: Configure Tor
 
@@ -145,6 +144,22 @@ Built with privacy and security in mind, **Dark_Crawler** routes all traffic thr
 
     python darkcrawler.py -u http://example.onion
 
+# Comprehensive analysis with images
+
+    python darkcrawler.py -u http://marketplace.onion --images --all
+
+# JSON only
+
+    python darkcrawler.py -u http://marketplace.onion --json
+
+# CSV only
+
+    python darkcrawler.py -u http://marketplace.onion --csv
+
+# Image-only mode
+
+    python darkcrawler.py -u http://marketplace.onion --images-only
+
 
 # Advanced Crawl with Full Reporting
 
@@ -154,8 +169,18 @@ Built with privacy and security in mind, **Dark_Crawler** routes all traffic thr
 
 # Batch Processing from File
 
-    python darkcrawler.py -f target_urls.txt -d 2 -p 30 --csv --pdf
+# Create target list
 
+- echo "http://marketplace1.onion" > targets.txt
+- echo "http://forum1.onion" >> targets.txt
+
+# Run batch analysis
+
+    python darkcrawler.py -f targets.txt --images --all -o ./weekly_report/
+
+# Image-Only Evidence Collection
+
+    python darkcrawler.py -u http://marketplace.onion --images-only --image-extensions jpg,png --max-images 50
 
 
 # Usage Guide
