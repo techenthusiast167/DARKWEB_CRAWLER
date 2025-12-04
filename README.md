@@ -104,7 +104,7 @@ Built with privacy and security in mind, **Dark_Crawler** routes all traffic thr
 
 - Visit the link below to get the script, then use nano to install it:
 
-**https://gist.github.com/techenthusiast167/f47516429ac2c2370d83cada5228ce56**
+**https://gist.github.com/techenthusiast167/e347cd8cfc9de86970b7edf481272ad7**
 
 ### Step-by-Step:
 
