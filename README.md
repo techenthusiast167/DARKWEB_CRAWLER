@@ -160,6 +160,12 @@ Built with privacy and security in mind, **Dark_Crawler** routes all traffic thr
 
     python darkcrawler.py -u http://marketplace.onion --images-only
 
+# OR 
+
+    python darkcrawler.py -u http://marketplace.onion --images-only --no-tor-check
+
+
+
 
 # Advanced Crawl with Full Reporting
 
