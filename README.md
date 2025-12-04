@@ -623,7 +623,7 @@ This tool is provided for educational purposes and authorized security research 
 
 **Start Tor service**:
 
-    Refer to version 2:0 above for support on how to configure Tor
+    Refer to version 2:4 above for support on how to configure Tor
 
 
 **Configure Target URLs**:
