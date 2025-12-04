@@ -2,7 +2,7 @@
 
 **Professional Dark Web Intelligence Platform for Ethical Security Research**
 
-**Version 3 | Enhanced with Marketplace Analysis | Cyber Threat Intelligence Team**
+**Version 2.4 | Enhanced with Marketplace Analysis | Cyber Threat Intelligence Team**
 
 
 # Table of Contents
