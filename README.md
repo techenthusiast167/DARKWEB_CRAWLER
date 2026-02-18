@@ -100,22 +100,12 @@ Built with privacy and security in mind, **Dark_Crawler** routes all traffic thr
 - Administrative privileges (for some operating systems)
 
 
-# Step 1: Manual Installation
+# Step 1: Manual Installation Using Wget 
 
-- Visit the link below to get the script, then use nano to install it:
-
-**https://gist.github.com/techenthusiast167/e347cd8cfc9de86970b7edf481272ad7**
-
-### Step-by-Step:
-
-- Click on the link below to access the script
-
-- Copy the script content
-
-- Use nano to create and install the tool
+    wget -O DarkCrawler.py https://gist.githubusercontent.com/techenthusiast167/e347cd8cfc9de86970b7edf481272ad7/raw/0c1a15d235bb79f79df56b4a07af3789e146510e/dark%2520crawler.py
 
 
-# Step 2: Install Dependencies
+# Step 2: Dependencies Installation
 
     pip install requests beautifulsoup4 stem nltk lxml Pillow
 
